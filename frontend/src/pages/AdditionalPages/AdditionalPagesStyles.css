@@ -1,0 +1,22 @@
+.textField {
+    color: #F8F8FF;
+    background-color: #606060;
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.textField > h1, .textField > h2 {
+    margin: 10px 0 10px 0;
+}
+
+.contact-links {
+    color: #F8F8FF;
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    color: #3399ff;
+    transition: 0.5s;
+}

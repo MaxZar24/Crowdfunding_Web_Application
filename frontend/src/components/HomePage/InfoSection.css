@@ -1,0 +1,21 @@
+.InfoBackground {
+    display: flex;
+    flex-direction: column;
+    background-color: #606060;
+    color: #F8F8FF;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

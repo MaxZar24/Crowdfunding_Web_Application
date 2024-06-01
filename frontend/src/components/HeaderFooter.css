@@ -1,0 +1,112 @@
+.body {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.color-style {
+    background: #221f1f;
+    color: #F8F8FF;
+}
+
+ul, li, section {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+}
+
+button, input, svg, section {
+    height: 40px;
+}
+
+.searchIcon:hover path {
+    stroke: #3399ff;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 400px;
+    text-indent: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.input-field:focus {
+    outline: none;
+    border: none;
+}
+
+section {
+    border: 1px solid rgb(118, 118, 118);
+    padding: 0 5px 0 5px;
+    border-radius: 3px;
+    gap: 5px;
+    background: #606060;
+}
+
+section:hover, .loginButton:hover {
+    background: #a0a0a0;
+    transition: 0.5s;
+}
+
+.loginButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    background: #606060;
+    color: #F8F8FF;
+    border-radius: 3px;
+    border: none;
+    gap: 5px;
+}
+
+.detailsButton {
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: #606060;
+    color: #F8F8FF;
+    opacity: 90%;
+}
+
+.detailsButton:hover {
+    background-color: #a0a0a0;
+    transition: 0.5s;
+}
+
+.footer-ul {
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #F8F8FF;
+    padding-bottom: 20px;
+}
+
+.footer-ul > li:hover {
+    color: #3399ff;
+    transition: 0.5s;
+}
+
+.themesItems {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.themesItems > p:hover {
+    color: #3399ff;
+    transition: 0.2s;
+}

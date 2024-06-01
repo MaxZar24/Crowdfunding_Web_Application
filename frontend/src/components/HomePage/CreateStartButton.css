@@ -1,0 +1,39 @@
+.createStartSection {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/opacity-background.png');
+    background-size: contain;
+    animation: moveBackground 60s linear infinite;
+
+}
+
+.createStartButton {
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    background: #3399ff;
+    border: none;
+    color: #F8F8FF;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.createStartButton:hover {
+    background: #0080FF;
+    transition: 0.5s;
+    font-size: 18px
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
